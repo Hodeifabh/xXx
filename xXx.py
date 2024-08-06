@@ -170,17 +170,17 @@ logo=(f"""\033[1;37m
   \033[1;32m     `Y8bd8P'    d888b    `Y8bd8P' 
     \033[1;32m     X88K     d88888b     X88K   
     \033[1;37m   .d8""8b.  d88P Y88b  .d8""8b. 
-     \033[1;37m  888  888 d88P   Y88b 888  888 
- \033[1;32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mAuthor  : Luffy
+     \033[;37   888    888 d88P   Y88b 888  888 
+ \033[1;36m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mTOOL    : xXx 
  \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mGithub  : hodeifabh
  \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mService : free
  \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mVersion : 19.7
- \033[1;32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ \033[1;36m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mCloning ids Saved in \033[1;31mxXx \033[1;37mfolder
- \033[1;32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""")
+ \033[1;36m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~""")
 def linex():
-       print('\033[1;32m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+       print('\033[1;36m ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 os.system('xdg-open https://chat.whatsapp.com/JJfccbKpGu9BChyGH7GoLA')
 def clear():
         os.system('clear')
@@ -227,11 +227,11 @@ tokenku=[]
 def menu():
             clear()
         #    linex()
-            print('   \33[37;42m\t Welcome \033[1;31mxXx \033[1;37mxd MUGHAL Tool\33[0;m');linex()
-            print(' \033[1;32m[\033[1;37m1\033[1;32m] \033[1;37mFile Cloning ')
-            print(' \033[1;32m[\033[1;37m2\033[1;32m] \033[1;37mRandom Cloning ')
-            print(' \033[1;32m[\033[1;37m3\033[1;32m] \033[1;37mCreate Auto fb')
-            print(' \033[1;32m[\033[1;37m4\033[1;32m] \033[1;37mAuto Create Fb ')
+            print('   \33[37;42m\t Welcome \033[1;31mxXx \033[1;36mxd MUGHAL Tool\33[0;m');linex()
+            print(' \033[1;32m[\033[1;37m1\033[1;32m] \033[1;36mFile Cloning ')
+            print(' \033[1;32m[\033[1;37m2\033[1;32m] \033[1;36mRandom Cloning ')
+            print(' \033[1;32m[\033[1;37m3\033[1;32m] \033[1;36mCreate Auto fb')
+            print(' \033[1;32m[\033[1;37m4\033[1;32m] \033[1;36mAuto Create Fb ')
           
             print(' \033[1;32m[\033[1;37m5\033[1;32m] \033[1;37mWhatsApp Group')
    
@@ -258,7 +258,7 @@ def menu():
                 linex()
                 plist = []
                 try:
-                    ps_limit = int(input(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mHow many passwords do you want to add?? '))
+                    ps_limit = int(input(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;36mHow many passwords do you want to add?? '))
                 except:
                     ps_limit =1
                 clear()
@@ -267,7 +267,7 @@ def menu():
                 for i in range(ps_limit):
                     plist.append(input(f' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mPut password {i+1}:\033[1;32m '))
                 clear()
-                print(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mDo you went show cp account? \033[1;32m[\033[1;37my\033[1;31m/\033[1;37mn\033[1;32m]: ')
+                print(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;36mDo you went show cp account? \033[1;32m[\033[1;37my\033[1;31m/\033[1;37mn\033[1;32m]: ')
                 linex()
                 cx=input(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mChoose: ')
                 if cx in ['y','Y','yes','Yes','1']:
@@ -350,9 +350,9 @@ def pak():
                         clear()
                         
                         tl = str(len(user))
-                        print(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mTotal id : \033[1;97m'+tl)
-                        print(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mSelect code :\033[1;97m '+code)
-                        print(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mDOD Crack Has Been Running \n \033[1;32m[\033[1;37m+\033[1;32m] \033[1;37mUse Airplane after 2 minutes')
+                        print(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;36mTotal id : \033[1;97m'+tl)
+                        print(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;36mSelect code :\033[1;97m '+code)
+                        print(' \033[1;32m[\033[1;37m+\033[1;32m] \033[1;36mDOD Cracking started  \n \033[1;32m[\033[1;37m+\033[1;32m] \033[1;31mIf no result use Flight mode ')
                         linex()
                         for psx in user:
                                 ids = code+psx
